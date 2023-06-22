@@ -8,3 +8,35 @@
     background: #3e3c3c;
 }
 
+ul {
+    list-style-type: none;
+}
+
+.background {
+    background-image: url("assets/images/Illustration-header.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+}
+
+h1 {
+    color:#F55800;
+    font-size: 72px;
+    font-family: Crete Round;
+    line-height: 81.5px;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.description-p {
+    color: var(--neutrals-n-20, #F4F5F7);
+    font-size: 20px;
+    font-family: Inter;
+    line-height: 32px;
+}
+
