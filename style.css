@@ -50,3 +50,13 @@ h1 {
 .inp {
     border-bottom: 1px solid #979493 !important;
 }
+
+@media  (max-width: 768px) {
+  .page-bg{
+    display: none;
+  } 
+
+  .social {
+    display: none !important;
+  }
+}
