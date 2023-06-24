@@ -8,35 +8,45 @@
     background: #3e3c3c;
 }
 
-ul {
-    list-style-type: none;
+.height {
+    height: 100vh;
 }
 
 .background {
     background-image: url("assets/images/Illustration-header.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right top;
+    background-position: right bottom;
+}
+
+.width {
+    max-width: 684px;
 }
 
 h1 {
-    color:#F55800;
-    font-size: 72px;
-    font-family: Crete Round;
+    color:#f55800;
+    font-family: 'Crete Round', sans-serif;
+    line-height: 81.5px;
+    
+}
+
+.common-h {
+    color:#f55800;
+    font-family: 'Crete Round', sans-serif;
     line-height: 81.5px;
 }
 
-h2 {
-    font-size: 32px;
-    font-family: Inter;
-    font-weight: 500;
-    line-height: 44px;
+.hr-3 {
+
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 90%;
 }
 
-.description-p {
-    color: var(--neutrals-n-20, #F4F5F7);
-    font-size: 20px;
-    font-family: Inter;
-    line-height: 32px;
+.language-ul > li{
+    background-color: #212529;
+    color: #f4f5f7;
 }
 
+.inp {
+    border-bottom: 1px solid #979493 !important;
+}

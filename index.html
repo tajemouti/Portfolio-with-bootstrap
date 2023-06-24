@@ -1,145 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <title>Ajrass WebDeveloper</title>
-</head>
-<body>
-    <header class="navbar navbar-expand navbar-dark">
-        <nav class="container">
-            <span>
-                <a class="navbar-brand" href="#">Ajrass</a>
-            </span>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#work">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#headline"><img src="./assets/images/mail.svg" alt="mail"></a>
-                </li>
-            </ul>
-        </nav>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+      <title>Ajrass WebDeveloper</title>
+  </head>
+  <body>
+    <header class="navbar navbar-expand navbar-dark d-flex align-items-center fixed-top">
+      <nav class="container">
+        <span>
+          <a class="navbar-brand" href="#">Ajrass</a>
+        </span>
+        <ul class="navbar-nav">
+          <li class="nav-item d-flex" >
+              <a class="nav-link d-flex align-items-center text-light" href="#work">Portfolio</a>
+          </li>
+          <li class="nav-item d-flex">
+              <a class="nav-link d-flex align-items-center text-light" href="#about-me">About</a>
+          </li>
+          <li class="nav-item d-flex">
+              <a class="nav-link d-flex align-items-center text-light" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item d-flex">
+              <a class="nav-link d-flex align-items-center text-light" href="#headline"><img src="./assets/images/mail.svg" alt="mail"></a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <section id="headline" class="container-expand row bg-dark p-5">
-        <div class="col">
-            <h1>Hey There.<br>I'm Ajrass.</h1>
-            <h2 class="text-light">I'm a Software Developer</h2>
-            <p class="description-p">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-              don’t hesitate to contact me.
-            </p>
-            <ul class="d-flex">
-              <li>
-                <ahref="https://github.com/tajemouti" rel="noopener noreferrer" target="_blank">
-                  <img src="assets/images/IconGitHub.svg" alt="GitHub">
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/ajrass" rel="noopener noreferrer" target="_blank">
-                  <img src="assets/images/Icon Linkedin.svg" alt="LinkedIn">
-                </a>
-              </li>
-              <li>
-                <a href="https://wellfound.com/u/ajrass-tajemouti" rel="noopener noreferrer" target="_blank">
-                  <img src="assets/images/IconAngelist.svg" alt="WellFound">
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/AjrassTajemouti" rel="noopener noreferrer" target="_blank">
-                  <img src="assets/images/IconTwitter.svg" alt="Twitter">
-                </a>
-              </li>
-              <li>
-                <a href="https://medium.com/@tajemouti/" rel="noopener noreferrer" target="_blank">
-                  <img src="assets/images/IconMedium.svg" alt="Medium">
-                </a>
-              </li>
-            </ul>
+    <section id="headline" class="container-fluid bg-dark">
+      <div class="row height">
+        <div class="col-1 d-flex justify-content-center align-items-center">
+          <div class="d-flex flex-column justify-content-center">
+            <a href="https://github.com/tajemouti" rel="noopener noreferrer" target="_blank">
+              <img src="assets/images/IconGitHub.svg" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/ajrass" rel="noopener noreferrer" target="_blank">
+              <img src="assets/images/Icon Linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://wellfound.com/u/ajrass-tajemouti" rel="noopener noreferrer" target="_blank">
+              <img src="assets/images/IconAngelist.svg" alt="WellFound">
+            </a>
+            <a href="https://twitter.com/AjrassTajemouti" rel="noopener noreferrer" target="_blank">
+              <img src="assets/images/IconTwitter.svg" alt="Twitter">
+            </a>
+            <a href="https://medium.com/@tajemouti/" rel="noopener noreferrer" target="_blank">
+              <img src="assets/images/IconMedium.svg" alt="Medium">
+            </a>
+          </div>
         </div>
-        <div class="col background"></div>
+        <div class="col-5 d-flex flex-column justify-content-center">
+          <h1>Hey There.<br>I'm Ajrass.</h1>
+          <h2 class="text-light">I'm a Software Developer</h2>
+          <p class="text-white">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+          don't hesitate to contact me.
+          </p>
+        </div>
+        <div class="col-6 background"></div>
+      </div>
     </section>
-    <section id="work">
+    <section id="work" class="pt-5 pb-5">
+      <div class="container">
         <div class="row">
-            <div class="col">
-                <h2>My Recent Works</h2>
-            </div>
-            <div class="col">
-              <hr>
-            </div>
+          <div class="col">
+              <h2>My Recent Works</h2>
           </div>
+          <div class="col">
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-4">
+        <div class="card border-0">
           <div class="row">
-            <div class="col">
-                <img src="assets/images/ImgPlaceholder1.svg" alt="main-card">
-                    <div>
-                      <h3>Multi-Post Stories</h3>
-                      <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-                      <ul>
-                        <li>CSS</li>
-                        <li>HTML</li>
-                        <li>Bootstrap</li>
-                        <li>Ruby</li>
-                      </ul>
-                    <button type="button">See project</button>
-                </div>
+            <div class="col-lg-7">
+              <img class="card-img width" src="assets/images/ImgPlaceholder1.svg" alt="Placeholder">
+            </div>
+            <div class="card-body col-lg-5">
+              <h3 class="card-title">Multi-Post Stories</h3>
+              <p class="card-text w-75 h4 pt-3 pb-3">
+                A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+              </p>
+              <ul class="list-group-horizontal p-0">
+                <li class="list-inline-item border p-2">CSS</li>
+                <li class="list-inline-item border p-2">HTML</li>
+                <li class="list-inline-item border p-2">Bootstrap</li>
+                <li class="list-inline-item border p-2">Ruby</li>
+              </ul>
+              <button class="btn btn-outline-warning p-2">See project</button>
             </div>
           </div>
-          <div class="row">
-            <div class="col">
-                <div>
-                    <img src="assets/images/ImgPlaceholder2.svg" alt="placeholder">
+        </div>
+      </div>
+      <div class="container d-flex flex-wrap align-items-center text-white mt-5 w-100">
+        <div class="card card-dem m-3">
+            <img class="card-img" src="assets/images/ImgPlaceholder2.svg" alt="placeholder">
+            <div class="card-body card-img-overlay d-flex flex-column justify-content-end">
+                <h3 class="card-title">Profesional Art Printing Data More</h3> 
+                <div class="card-text">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
                 </div>
-                <div>
-                    <h3>Profesional Art Printing Data</h3>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                    <ul>
-                      <li>HTML</li>
-                      <li>Bootstrap</li>
-                      <li>Ruby</li>
-                    </ul>
-                </div>
-                <button type="button">See project</button>
+                <ul class="list-group-horizontal p-0">
+                    <li class="list-inline-item border p-2">HTML</li>
+                    <li class="list-inline-item border p-2">Bootstrap</li>
+                    <li class="list-inline-item border p-2">Ruby</li>
+                </ul>
             </div>
-            <div class="col">
-                <div>
-                    <img src="assets/images/ImgPlaceholder2.svg" alt="placeholder">
+        </div>
+        <div class="card card-dem m-3">
+            <img class="card-img" src="assets/images/ImgPlaceholder2.svg" alt="placeholder">
+            <div class="card-body card-img-overlay d-flex flex-column justify-content-end">
+                <h3 class="card-title">Profesional Art Printing Data More</h3> 
+                <div class="card-text">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
                 </div>
-                <div>
-                    <h3>Profesional Art Printing Data</h3>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                    <ul>
-                      <li>HTML</li>
-                      <li>Bootstrap</li>
-                      <li>Ruby</li>
-                    </ul>
-                </div>
-                <button type="button">See project</button>
+                <ul class="list-group-horizontal p-0">
+                  <li class="list-inline-item border p-2">HTML</li>
+                  <li class="list-inline-item border p-2">Bootstrap</li>
+                  <li class="list-inline-item border p-2">Ruby</li>
+                </ul>
             </div>
-            <div class="col">
-                <div>
-                    <img src="assets/images/ImgPlaceholder2.svg" alt="placeholder">
+        </div>
+        <div class="card card-dem m-3">
+            <img class="card-img" src="assets/images/ImgPlaceholder2.svg" alt="placeholder">
+            <div class="card-body card-img-overlay d-flex flex-column justify-content-end">
+                <h3 class="card-title">Profesional Art Printing Data More</h3> 
+                <div class="card-text">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
                 </div>
-                <div>
-                    <h3>Profesional Art Printing Data</h3>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                    <ul>
-                      <li>HTML</li>
-                      <li>Bootstrap</li>
-                      <li>Ruby</li>
-                    </ul>
-                </div>
-                <button type="button">See project</button>
+                <ul class="list-group-horizontal p-0">
+                  <li class="list-inline-item border p-2">HTML</li>
+                  <li class="list-inline-item border p-2">Bootstrap</li>
+                  <li class="list-inline-item border p-2">Ruby</li>
+                </ul>
             </div>
-          </div>
+        </div>
+        <div class="card card-dem m-3">
+            <img class="card-img" src="assets/images/ImgPlaceholder2.svg" alt="placeholder">
+            <div class="card-body card-img-overlay d-flex flex-column justify-content-end">
+                <h3 class="card-title">Profesional Art Printing Data More</h3> 
+                <div class="card-text">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                </div>
+                <ul class="list-group-horizontal p-0">
+                  <li class="list-inline-item border p-2">HTML</li>
+                  <li class="list-inline-item border p-2">Bootstrap</li>
+                  <li class="list-inline-item border p-2">Ruby</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card card-dem m-3">
+            <img class="card-img" src="assets/images/ImgPlaceholder2.svg" alt="placeholder">
+            <div class="card-body card-img-overlay d-flex flex-column justify-content-end">
+                <h3 class="card-title">Profesional Art Printing Data More</h3> 
+                <div class="card-text">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                </div>
+                <ul class="list-group-horizontal p-0">
+                  <li class="list-inline-item border p-2">HTML</li>
+                  <li class="list-inline-item border p-2">Bootstrap</li>
+                  <li class="list-inline-item border p-2">Ruby</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card card-dem m-3">
+            <img class="card-img" src="assets/images/ImgPlaceholder2.svg" alt="placeholder">
+            <div class="card-body card-img-overlay d-flex flex-column justify-content-end">
+                <h3 class="card-title">Profesional Art Printing Data More</h3> 
+                <div class="card-text">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                </div>
+                <ul class="list-group-horizontal p-0">
+                  <li class="list-inline-item border p-2">HTML</li>
+                  <li class="list-inline-item border p-2">Bootstrap</li>
+                  <li class="list-inline-item border p-2">Ruby</li>
+                </ul>
+            </div>
+        </div>
+      </div>
     </section>
-    
     <script src="./assets/js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
